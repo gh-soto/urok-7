@@ -1,0 +1,150 @@
+body {
+	background: #80b07e;
+}
+/*прибирає стрілки з числового інпута*/
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+
+
+h1 {
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #3869ec;
+	text-align: center;
+	margin: 30px auto;
+	
+}
+
+h2 {
+	font-size: 2em;
+	font-style: italic;
+	
+}
+
+h3 {
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: center;
+}
+
+.readonly-form {
+	display: none;
+}
+
+table {
+	color: #0a450b;
+	table-layout: fixed;
+	width: 100%;
+	td, th {
+		width: 2%;
+		padding: 1px;
+		input[type=text] {
+			width: 100%;
+			
+		}
+		
+	}
+}
+
+.container {
+	margin: 40px auto;
+	text-align: center;
+}
+
+.container2 {
+	text-align: left;
+	form{
+		input{
+			margin-bottom: 20px;
+			width: 50%;
+		}
+
+		textarea {
+			margin-bottom: 20px;
+			min-width: 50%;
+			width: 50%;
+			min-height: 100px;
+
+		}
+
+		.full-desc {
+			margin-bottom: 20px;
+			min-width: 50%;
+			width: 50%;
+			min-height: 280px;
+		}
+
+		input[type=submit] {
+			width: 25%;
+			
+		}
+	}
+}
+
+.header {
+	ul{
+		display: block;
+		margin-top: 10px;
+		text-align: center;
+		li {
+			display: inline;
+			margin-right: 30px;
+			a {
+				font-size: 1.5em;
+				
+			}
+		}
+	}
+}
+
+.article-item {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #dbe5e2; 
+	width: 95%;
+	margin: auto;
+	padding-top: 20px;
+	
+	.info {
+		margin-top: 10px;
+		.timestamp{
+			text-align: right;
+		}
+		.links{
+			a{
+				margin-right: 15px;
+			}
+		}
+	}
+	.info-wrapp{
+		margin-bottom: 10px;
+		*{
+			margin-right: 10px;
+		}
+	}
+}
+
+.article-delete {
+	color: #818581;
+}
+
+.delete-button {
+
+	margin: 100px auto;
+	text-align: center;
+
+	h2 {
+		font-weight: bold;
+		text-decoration: underline;
+		color: #603453;
+
+	}
+
+	form {
+		input {
+			margin: 20px;
+		}
+	}
+}

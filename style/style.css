@@ -1,0 +1,101 @@
+@charset "UTF-8";
+body {
+  background: #80b07e; }
+
+/*╨┐╤А╨╕╨▒╨╕╤А╨░╤Ф ╤Б╤В╤А╤Ц╨╗╨║╨╕ ╨╖ ╤З╨╕╤Б╨╗╨╛╨▓╨╛╨│╨╛ ╤Ц╨╜╨┐╤Г╤В╨░*/
+input[type=number] {
+  -moz-appearance: textfield; }
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #3869ec;
+  text-align: center;
+  margin: 30px auto; }
+
+h2 {
+  font-size: 2em;
+  font-style: italic; }
+
+h3 {
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center; }
+
+.readonly-form {
+  display: none; }
+
+table {
+  color: #0a450b;
+  table-layout: fixed;
+  width: 100%; }
+  table td, table th {
+    width: 2%;
+    padding: 1px; }
+    table td input[type=text], table th input[type=text] {
+      width: 100%; }
+
+.container {
+  margin: 40px auto;
+  text-align: center; }
+
+.container2 {
+  text-align: left; }
+  .container2 form input {
+    margin-bottom: 20px;
+    width: 50%; }
+  .container2 form textarea {
+    margin-bottom: 20px;
+    min-width: 50%;
+    width: 50%;
+    min-height: 100px; }
+  .container2 form .full-desc {
+    margin-bottom: 20px;
+    min-width: 50%;
+    width: 50%;
+    min-height: 280px; }
+  .container2 form input[type=submit] {
+    width: 25%; }
+
+.header ul {
+  display: block;
+  margin-top: 10px;
+  text-align: center; }
+  .header ul li {
+    display: inline;
+    margin-right: 30px; }
+    .header ul li a {
+      font-size: 1.5em; }
+
+.article-item {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #dbe5e2;
+  width: 95%;
+  margin: auto;
+  padding-top: 20px; }
+  .article-item .info {
+    margin-top: 10px; }
+    .article-item .info .timestamp {
+      text-align: right; }
+    .article-item .info .links a {
+      margin-right: 15px; }
+  .article-item .info-wrapp {
+    margin-bottom: 10px; }
+    .article-item .info-wrapp * {
+      margin-right: 10px; }
+
+.article-delete {
+  color: #818581; }
+
+.delete-button {
+  margin: 100px auto;
+  text-align: center; }
+  .delete-button h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #603453; }
+  .delete-button form input {
+    margin: 20px; }
+
+/*# sourceMappingURL=style.css.map */
